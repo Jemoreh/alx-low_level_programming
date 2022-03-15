@@ -1,8 +1,9 @@
-#include "main.h"
+#include "main.c"
 
 /**
 *print_alphabet - prints the alphabet, in lowercase, followed by a new line   
-*Return: Always 0 (Success)
+*Return: Always 0.
+ 
 */
 void print_alphabet(void)
 {
@@ -16,6 +17,9 @@ _putchar(ch);
 ch++;
 }
 _putchar('\n');
+return(0);
+
 }
+
 
   
