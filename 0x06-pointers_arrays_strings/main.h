@@ -1,4 +1,5 @@
-
+#infndef _main_h_
+#define _main_h__ 
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
